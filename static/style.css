@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: montserrat;
+  }
+  nav{
+    background: #bec4c9;
+    height: 80px;
+    width: 100%;
+  }
+  .navbar-brand{
+    font-weight: bolder;
+    font-size: 25px;
+    margin: 10px;
+  }
+  nav ul{
+    float: right;
+    margin: 20px;
+    display:flex;
+    align-items: center;
+  }
+  nav ul li{
+    line-height: 20px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  a.active,a:hover{
+    background: #1b9bff;
+    transition: .5s;
+  }
+  .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+  a{
+    text-decoration: none;
+  }
+  @media (max-width: 952px){
+    label.logo{
+      font-size: 30px;
+      padding-left: 50px;
+    }
+    nav ul li a{
+      font-size: 16px;
+    }
+  }
+  @media (max-width: 858px){
+    .checkbtn{
+      display: block;
+    }
+    ul{
+      position: fixed;
+      width: 100%;
+      height: auto;
+      z-index: 100;
+      opacity: 0;
+      background: #057bf1;
+      top:80px;
+      left: -100%;
+      display: none;
+      text-align: center;
+      transition: all .5s;
+    }
+    nav ul li{
+      margin: 5px 0;
+      line-height: 30px;
+    }
+    nav ul li a{
+      font-size: 20px;
+    }
+    a:hover,a.active{
+      background: #272a27;
+      color: #0082e6;
+    }
+    #check:checked ~ ul{
+      display: flex;
+      flex-direction: column;
+      left: 0;
+      opacity: 1;
+    }
+  }
+  .card {
+    width: 190px;
+    background: white;
+    padding: .4em;
+    border-radius: 6px;
+  }
+  .card-img-top {
+    width: 100%;
+    height: 130px;
+    border-radius: 6px 6px 0 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+  .card-img-top:hover {
+    transform: scale(0.98);
+  }
+  .info{
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: rgb(63, 121, 230);
+    padding: 10px 7px 0;
+  }
