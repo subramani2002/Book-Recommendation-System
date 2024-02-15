@@ -1,13 +1,18 @@
 # BOOK RECOMMENDATION SYSTEM
 **Summary:**
 This project features a collaborative filtering-based book recommendation system developed with Flask. Leveraging user-book interaction data, the system generates personalized suggestions. Implemented as a web application, Flask facilitates a smooth integration, providing users with an accessible and interactive platform for exploring and receiving tailored book recommendations.
+
 **Dataset Source:** https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset
 # Real Time Demo:
 Interface
-![Screenshot 2024-01-10 204036](https://github.com/subramani2002/Bollywood-Celeb-Look-Alike/assets/67220838/c4052955-d1cd-474d-ba2f-0f443fe8575a)
+![Screenshot 2024-02-14 213530](https://github.com/subramani2002/Book-Recommendation-System/assets/67220838/6aba5fbd-d1d3-4958-9222-81a5516a5ad6)
+
 Recommendation
-![Screenshot 2024-01-10 211207](https://github.com/subramani2002/Bollywood-Celeb-Look-Alike/assets/67220838/3749c47d-7c7a-4155-a8db-3c488294d200)
-                                       
+
+         ![Screenshot 2024-02-14 213620](https://github.com/subramani2002/Book-Recommendation-System/assets/67220838/c50326fb-e521-4b85-8fe6-2461200d2643)
+         
+             ![Screenshot 2024-02-14 213654](https://github.com/subramani2002/Book-Recommendation-System/assets/67220838/da1239e9-b0d3-467b-af04-d943a923edf1)
+                 
 # Steps to Run this Project:
 ### 1. Clone the Repository:
    Clone the Book Recommendation System repository to your local machine using the following command:
