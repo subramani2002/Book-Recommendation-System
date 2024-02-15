@@ -9,9 +9,9 @@ Interface
 
 Recommendation
 
-         ![Screenshot 2024-02-14 213620](https://github.com/subramani2002/Book-Recommendation-System/assets/67220838/c50326fb-e521-4b85-8fe6-2461200d2643)
+![Screenshot 2024-02-14 213620](https://github.com/subramani2002/Book-Recommendation-System/assets/67220838/c50326fb-e521-4b85-8fe6-2461200d2643)
          
-             ![Screenshot 2024-02-14 213654](https://github.com/subramani2002/Book-Recommendation-System/assets/67220838/da1239e9-b0d3-467b-af04-d943a923edf1)
+![Screenshot 2024-02-14 213654](https://github.com/subramani2002/Book-Recommendation-System/assets/67220838/da1239e9-b0d3-467b-af04-d943a923edf1)
                  
 # Steps to Run this Project:
 ### 1. Clone the Repository:
